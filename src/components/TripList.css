@@ -1,0 +1,74 @@
+
+/* Container styles */
+
+body {
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+    height: 100vh; /* Use the full height of the viewport */
+    margin: 0; /* Remove default body margin */
+}
+.container {
+    display: flex;
+    flex-direction: column; /* If you want items stacked vertically */
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center; /* If you want text content centered */
+  }
+  ul {
+    list-style-type: none;
+}
+
+li {
+    max-width: 600px;
+    background-color: aquamarine;
+    margin:10px 0px 10px 0px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 255, 0, 0.6);
+    transition: box-shadow 1s ease;
+    transition: background-color 0.6s ease;
+    cursor: pointer;
+}
+
+li:hover {
+    box-shadow: -10px 8px 4px rgba(0, 0, 0, 0.6);
+    background-color: orange
+}
+
+li h3 {
+    margin: 0;
+    font-size: 1.2em;
+    align-items: center;
+    color: #333; /* Set your preferred text color */
+  }
+  
+  /* Style for the price within each list item */
+ li p {
+    margin: 5px 0 0;
+    font-size: 1em;
+    color: #777; /* Set your preferred text color */
+}
+  
+h2 {
+    margin: 10px;
+    padding: 10px;
+}
+button {
+    background-color: #007bff; /* Set your preferred button background color */
+    color: #fff; /* Set your preferred button text color */
+    margin:10px 10px 10px 20px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth transition to the background color */
+  }
+  
+  /* Button hover effect */
+  button:hover {
+    background-color: #0056b3; /* Adjust the background color on hover */
+  }
